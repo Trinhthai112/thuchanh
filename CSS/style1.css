@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;	}
+*{box-sizing: border-box}
+.banner{
+	width: 100%; min-height:300px;
+}	
+.header{
+	width: 100%; height: 60px; background-color: #E3E3E1}
+.img100{width:  100%; height: auto}
+.menu a{
+	padding: 10px; text-decoration: none; color:#7C7878
+}
+.menu a:hover{
+	color:#F00C10
+}
+aside{
+	width: 30%; min-height: 600px; padding: 15px
+}
+main{
+	width: 70%; min-height: 500px; padding: 15px
+}
+footer{
+	width:100%; min-height: 200px; background-color: azure
+}
+.bg-xanh{
+	width: 100%; min-height: 200px; background-color: #33B4F4
+}
+.menu ul{
+	margin:0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 20px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color:#514E4E; font-size: 17px; font-weight: 600; border-radius: 16px
+}
+.menu ul li a:hover{background-color: darkred; color: white}
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#D7585A;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #666666;
+}
+aside ul li{
+	border-bottom: 1px solid #666666
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+
+}
+footer a{
+text-decoration: none; color: #241E1E	
+}
+.bg-xanh{width: 100%; min-height: 300px; background-color:#75C5F7; text-align: center
+	}
+footer ul{margin: 0; padding: 0; list-style: none
+	}
+footer ul li a{
+	padding: 10px; display: flex; flex-direction: column
+}
+footer ul li a:hover{ color: white }
